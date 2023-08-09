@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample test Java ">
+    <listeners>
+        <listener class-name="main.java.Util.SuiteListener"></listener>
+    </listeners>
+    <test name="Test automation">
+        <parameter name="browserName" value="Edge"/>
+        <classes>
+            <class name="test.SampleTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
